@@ -71,6 +71,64 @@
     position: absolute;
 }
 
+.basket{
+    width: 8rem;
+    height: 2rem;
+    position: absolute;
+    background-color: #3A3B9C;
+    right: 55rem;
+    top: 1.1rem;
+    border: transparent;
+    box-shadow: #C4C5CC 1px 4px 5px 0;
+    border-radius: 15px 15px 15px 0;
+}
+
+.basket a{
+    text-decoration: none;
+    color: #F4F5F9;
+    font-family: "Yekan Bakh",sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    top: 0.3rem;
+    right: 2.5rem;
+}
+
+.basket img{
+    background-color: transparent;
+    position: absolute;
+    right: 0.4rem;
+    top: 0.3rem;
+}
+
+.user{
+    width: 8rem;
+    height: 2rem;
+    position: absolute;
+    background-color: #F4F5F9;
+    right: 65rem;
+    top: 1.1rem;
+    border: 1px solid #333333;
+    box-shadow: #C4C5CC 1px 4px 5px 0;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.user a{
+    text-decoration: none;
+    color: #3A3B9C;
+    font-family: "Yekan Bakh",sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    top: 0.3rem;
+    right: 2rem;
+}
+
+.user img{
+    background-color: transparent;
+    color: #3A3B9C;
+    position: absolute;
+    top: 0.3rem;
+    right: 0.3rem;
+}
 
 
 
