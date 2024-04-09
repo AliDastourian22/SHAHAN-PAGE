@@ -1,5 +1,77 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    direction: rtl;
 }
+
+@font-face {
+    font-family: "Yekan Bakh";
+}
+
+#color{
+    background-color:#F4F5F9;
+}
+
+.header{
+    width: 100%;
+    height: 5rem;
+    background-color: #F4F5F9;
+    z-index: 100;
+    position: relative;
+}
+
+.logo{
+    height: 2.5rem;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    margin: 1rem 0 0 1rem;
+    float: right;
+}
+
+.line{
+    height: 3rem;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    margin-right: 9.2rem;
+    margin-top: 1rem;
+}
+
+.search{
+    width: 32rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 8px 8px 8px 8px;
+    position: absolute;
+    right: 21rem;
+    top: 1.1rem;
+    border-color: transparent;
+}
+
+.search input{
+    font-family: "Yekan Bakh",sans-serif;
+    font-size: 1rem;
+    padding-right: 0.4rem;
+    width: 100%;
+    height: 100%;
+    background-color: #EFF1F5;
+    color: #333333;
+    outline: none;
+    border: transparent;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.search img{
+    width: auto;
+    height: auto;
+    background: transparent;
+    left: 0;
+    top: 0.3rem;
+    position: absolute;
+}
+
+
+
+
+
